@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS employee (
     PRIMARY KEY (employee_id),
     CONSTRAINT UK_im8flsuftl52etbhgnr62d6wh UNIQUE  (username)
     ,
-    CONSTRAINT FK5amfhprgb3rrhxjx7rq3al980 FOREIGN KEY (supervisor) REFERENCES employee (employee_id)
+    CONSTRAINT FK5amfhprgb3rrhxjx7rq3al980 FOREIGN KEY (supervisor) REFERENCES employeek (employee_id)
     )  ;
 
 
